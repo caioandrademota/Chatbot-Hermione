@@ -176,19 +176,19 @@ livros = {
                                                                                                                          'sinopse': 'Em seu primeiro livro, Edith Eva Eger emocionou o mundo ao contar como sobreviveu aos horrores da guerra e transformou seu sofrimento numa jornada de perdão e cura, ajudando milhares de pessoas a lidar com seus traumas mais profundos. Agora, em A liberdade é uma escolha, ela apresenta ensinamentos práticos que vão nos ajudar a identificar nossas próprias prisões mentais e a desenvolver as estratégias necessárias para nos libertarmos delas. Afinal, o que importa não é o que nos aconteceu, mas o que faremos de agora em diante e como poderemos encontrar na dor o aprendizado de que precisamos para seguir em frente. Este livro é uma verdadeira lição de esperança e superação – uma afirmação do poder que temos sobre nossa própria felicidade e um oportuno lembrete de que a liberdade é uma escolha que podemos fazer todos os dias, independentemente das circunstâncias.'},
 
     # LIVRO 37
-    '': {'paginas': '', 'autor': '', 'genero': '',
-         'preco': '', 'editora': '', 'avaliacao': '', 'data': '', 'posicao': '',
-         'sinopse': ''},
+    'Jujutsu Kaisen - Batalha De Feiticeiros Vol. 1': {'paginas': '192', 'autor': 'Gege Akutami', 'genero': 'Mangá HQs',
+                                                       'preco': '19.58', 'editora': 'Panini', 'avaliacao': '4.9', 'data': '21/08/2020', 'posicao': '37',
+                                                       'sinopse': 'Apesar do estudante colegial Yuuji Itadori ter grande força física, ele se inscreve no Clube de Ocultismo. Certo dia, eles encontram um “objeto amaldiçoado” e retiram o selo, atraindo criaturas chamadas de “maldições”. Itadori corre em socorro de seus colegas, mas será que ele será capaz de abater essas criaturas usando apenas a força física?!'},
 
     # LIVRO 38
-    '': {'paginas': '', 'autor': '', 'genero': '',
-         'preco': '', 'editora': '', 'avaliacao': '', 'data': '', 'posicao': '',
-         'sinopse': ''},
+    'A morte é um dia que vale a pena viver': {'paginas': '192', 'autor': 'Ana Claudia Quintana Arantes', 'genero': 'Autoajuda',
+                                               'preco': '29.49', 'editora': 'Sextante', 'avaliacao': '4.8', 'data': '15/02/2019', 'posicao': '38',
+                                               'sinopse': 'Em A morte é um dia que vale a pena viver, Ana Claudia tem a coragem de lidar com um tema que é ainda um tabu. Em toda a sua vida profissional, a médica enfrentou dificuldades para ser compreendida, para convencer que o paciente merece atenção mesmo quando não há mais chances de cura. Após toda a luta, agora os Cuidados Paliativos têm status de política pública, recebendo do Estado a atenção que ela sempre sonhou.'},
 
     # LIVRO 39
-    '': {'paginas': '', 'autor': '', 'genero': '',
-         'preco': '', 'editora': '', 'avaliacao': '', 'data': '', 'posicao': '',
-         'sinopse': ''},
+    'Comunicação não-violenta': {'paginas': '288', 'autor': 'Marshall Rosenberg', 'genero': 'Autoajuda',
+                                 'preco': '44.90', 'editora': 'Ágora', 'avaliacao': '4.8', 'data': '01/01/2006', 'posicao': '39',
+                                 'sinopse': 'Manual prático e didático que apresenta metodologia criada pelo autor, voltada para aprimorar os relacionamentos interpessoais e diminuir a violência no mundo. Aplicável em centenas de situações que exigem clareza na comunicação: em fábricas, escolas, comunidades carentes e até em graves conflitos políticos.'},
 
     # LIVRO 40
     '': {'paginas': '', 'autor': '', 'genero': '',
