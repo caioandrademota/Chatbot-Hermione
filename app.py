@@ -2,42 +2,62 @@ import os
 from base_dados import livros
 
 
-def resposta_genero(resposta):
-    if resposta == '1':
+def pesquisar_genero(genero_escolhido):
+    if genero_escolhido == '1':
         return 'Romance'
-    elif resposta == '2':
+    elif genero_escolhido == '2':
         return 'Ficçao'
-    elif resposta == '3':
+    elif genero_escolhido == '3':
         return 'Fantasia'
-    elif resposta == '4':
+    elif genero_escolhido == '4':
         return 'Literatura'
-    elif resposta == '5':
+    elif genero_escolhido == '5':
         return 'Finanças'
-    elif resposta == '6':
+    elif genero_escolhido == '6':
         return 'Religião'
-    elif resposta == '7':
+    elif genero_escolhido == '7':
         return 'Misterio'
-    elif resposta == '8':
+    elif genero_escolhido == '8':
         return 'Mangá HQ'
-    elif resposta == '9':
+    elif genero_escolhido == '9':
         return 'Psicologia'
-    elif resposta == '10':
+    elif genero_escolhido == '10':
         return 'Autoajuda'
-    elif resposta == '11':
+    elif genero_escolhido == '11':
         return 'Infantil'
-    elif resposta == '12':
+    elif genero_escolhido == '12':
         return 'Politica'
 
 
-def resposta_start(resposta):
+def pesquisar_livro(nome_livro):
+    print('vou pesquisar...')
+    # desenvolver...
+
+
+def pesquisar_autor(nome_autor):
+    print('vou pesquisar...')
+    # desenvolver...
+
+
+def pesquisar_preco(preco_livro):
+    print('vou pesquisar...')
+    # desenvolver...
+
+
+def menu(resposta):
+
     if resposta == 1:
-        resposta = input('Informe o livro que deseja pesquisar: ')
+        nome_livro = input('Informe o livro que deseja pesquisar: ')
+        pesquisar_livro(nome_livro)
+
     elif resposta == 2:
-        resposta = input(
+        genero_escolhido = input(
             'Selecione um gênero:\n[1] Romance\n[2] Ficção\n[3] Fantasia\n[4] Literatura\n[5] Finanças\n[6] Religião\n[7] Misterio\n[8] Mangá HQs\n[9] Psicologia\n[10] Autoajuda\n[11] Infantil\n[12] Politica\n')
-        resposta_genero(resposta)
+        pesquisar_genero(int(genero_escolhido))
+
     elif resposta == 3:
         resposta = input('Informe o Autor que deseja pesquisar: ')
+
     # elif resposta == 4:
     #     respostra = input
     # else resposta == '5':
@@ -46,13 +66,13 @@ def resposta_start(resposta):
 
 def start():
     # apresentar chatbot
-    print('ola! me chamo Hermione\n')
+    print('\nola! me chamo Hermione\n')
     # oferecer menu de possibilidades
     resposta = input(
-        '\no que você deseja saber?\n[1]Buscar informações de um livro especifico\n[2] Indicações de livros por gênero\n[3] Indicações de livros por autor\n[5] Indicaçoes de livros por preço\n')
+        'o que você deseja saber?\n[1] Buscar informações de um livro especifico\n[2] Indicações de livros por gênero\n[3] Indicações de livros por autor\n[5] Indicaçoes de livros por preço\n')
     # processar as respostas
 
-    resposta_start(int(resposta))
+    menu(int(resposta))
 
 
 if __name__ == '__main__':
