@@ -30,7 +30,7 @@ livros = {
 
             #LIVRO 6
             'Mentirosos': {'paginas': '272', 'autor': 'E Lockhart', 'genero': 'Ficçao',
-            'preco': '27.91', 'editora': 'Seguinte', 'avaliacao': '4.6', 'data': '03/10/2014', 'posicao': '5',
+            'preco': '27.91', 'editora': 'Seguinte', 'avaliacao': '4.6', 'data': '03/10/2014', 'posicao': '6',
             'sinopse': 'Na família Sinclair, ninguém é carente, criminoso, viciado ou fracassado. Mas talvez isso seja mentira. Os Sinclair são uma família rica e renomada, que se recusa a admitir que está em decadência e se agarra a todo custo às tradições. Assim, todo ano o patriarca, suas três filhas e seus respectivos filhos passam as férias de verão em sua ilha particular. Cadence - neta primogênita e principal herdeira -, seus primos Johnny e Mirren e o amigo Gat são inseparáveis desde pequenos, e juntos formam um grupo chamado Mentirosos. Durante o verão de seus quinze anos, as férias idílicas de Cadence são interrompidas quando a garota sofre um estranho acidente. Ela passa os próximos dois anos em um período conturbado, com amnésia, depressão, fortes dores de cabeça e muitos analgésicos. Toda a família a trata com extremo cuidado e se recusa a dar mais detalhes sobre o ocorrido… até que Cadence finalmente volta à ilha para juntar as lembranças do que realmente aconteceu. “Emocionante, bonito e devastadoramente inteligente, Mentirosos é absolutamente inesquecível.” - John Green, autor de A culpa é das estrelas'},
 
             #LIVRO 7
