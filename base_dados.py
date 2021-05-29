@@ -244,3 +244,16 @@ livros = {
                                 'preco': '34.84', 'editora': 'Galera', 'avaliacao': '4.7', 'data': '01/02/2018', 'posicao': '',
                                 'sinopse': 'Cinco alunos entram em detenção na escola e apenas quatro saem com vida. Todos são suspeitos e cada um tem algo a esconder. Este é o enredo do Um de nós está mentindo, romance de estreia de Karen M. McManus. Numa tarde de segunda-feira, cinco estudantes do colégio Bayview entram na sala de detenção: Bronwyn, a gênia, comprometida a estudar em Yale, nunca quebra as regras. Addy, a bela, a perfeita definição da princesa do baile de primavera. Nate, o criminoso, já em liberdade condicional por tráfico de drogas. Cooper, o atleta, astro do time de beisebol. E Simon, o pária, criador do mais famoso aplicativo de fofocas da escola.Só que Simon não consegue ir embora. Antes do fim da detenção, ele está morto. E, de acordo com os investigadores, a sua morte não foi acidental.Na segunda-feira, ele morreu. Mas na terça, planejava postar fofocas bem quentes sobre os companheiros de detenção. O que faz os quatro serem suspeitos do seu assassinato.Imagine todos os elementos que você pode encontrar em um livro clássico destinado a um jovem leitor: o romance, as panelinhas e as muitas lutas que o adolescente típico enfrenta. Agora imagine esse romance com uma ligeira reviravolta: assassinato! Um de nós está mentindo se concentra em aspectos-chave de como a fase da adolescência pode ser problemática. Navegando entre uma vida escolar descontraída e uma paisagem sombria em torno da morte de Simon. A história fala ainda sobre a importância da confiança e da justiça, à medida que falsas acusações aparecem e causam sérias repercussões.A autora também explora questões como a depressão e saúde mental, tornando este livro extremamente realista. No final de cada capítulo, deixa seus leitores em choque, com um desejo irresistível de continuar lendo.Com um final surpreendente, Um de nós está mentindo explora quatro pontos de vista diferentes, dando ao leitor pistas para desvendar o mistério. Seriam os quatro adolescentes cúmplices de um crime ou vítimas perfeitas de um assassino que continua à solta? Desvende todos os mistérios e descubra quem é o assassino do colégio Bayview.'}
 }
+
+#TOP 10 MELHORES PREÇOS
+livros_precos = {'Atlas ilustrado do corpo humano': '2.01', 
+                 'O Poder da autorresposabilidade': '6.90',
+                 'A Garota do Lago': '12.50',
+                 'O Morro dos Ventos Uivantes': '12.89',
+                 'A Revolução dos Bichos: Um conto de fadas': '12.90',
+                 'O Poder da Ação': '12.90',
+                 'O Homem Mais Rico da Babilonia': '13.89',
+                 'Do Mil ao Milhão. Sem Cortar o Cafezinho': '14.90',
+                 'Jujutsu Kaisen - Batalha de Feiticeiros Vol. 1': '19.58',
+                 'Pequeno Manual Antirracista': '19.90' }
+
