@@ -83,10 +83,13 @@ def pesquisar_avaliacao():
             print(livro)
 
 
-# def pesquisar_preco(preco_livro):
-#     print('vou pesquisar...')
-    # desenvolver...
-
+def pesquisar_preco():
+     i = 1
+     for livro, preco in livros_precos.items():
+         print(f'{i} - {livro}')
+         print(f'preço: {preco}\n')
+         i += 1
+   
 
 def menu(resposta):
     resposta_tratada = tratar_string(resposta)
