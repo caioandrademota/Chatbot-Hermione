@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1 class="jumbotron text-center">Hermione</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+          <div id="chatbox" class="border border-success">
+            <p class="botText">
+              <span>
+                <ol>
+                  <li>Buscar informações de um livro específico</li>
+                  <li>Indicações por gênero</li>
+                  <li>Indicações por autor</li>
+                  <li>Indicações por boa avaliação</li>
+                  <li>Indicações de melhores preços</li>
+                </ol>
+              </span>
+            </p>
+          </div>
+          <div id="userInput">
+            <input
+              id="textInput"
+              class="form-control"
+              type="text"
+              name="msg"
+              placeholder="Type Your Message Here"
+            />
+            <input
+              id="buttonInput"
+              class="btn btn-success form-control"
+              type="submit"
+              value="Send"
+            />
+          </div>
+        </div>
+      </div>
+
+      <script src="{{ url_for('static', filename='index.js') }}"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </div>
+  </body>
+</html>
