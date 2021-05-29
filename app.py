@@ -1,5 +1,6 @@
 import os
 from base_dados import livros
+from base_dados import livros_precos
 from unidecode import unidecode
 
 
