@@ -1,39 +1,39 @@
 function getResponse() {
-  let userText = $("#textInput").val();
-  let userHtml = '<p class="userText"><span>' + userText + "</span></p>";
+  let userText = $('#textInput').val();
+  let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
 
-  $("#textInput").val("");
-  $("#chatbox").append(userHtml);
+  $('#textInput').val('');
+  $('#chatbox').append(userHtml);
 
-  document
-    .getElementById("userInput")
-    // .scrollIntoView({ block: "start", behavior: "smooth" });
+  document.getElementById('userInput');
 
-  $("#chatbox").animate(
+  $('#chatbox').animate(
     {
-      scrollTop: 1000000
+      scrollTop: 1000000,
     },
-    500
+    500,
   );
 
-  $.get("/get", { msg: userText }).done(function (data) {
-    var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+  $.get('/get', { msg: userText }).done(function (dados) {
+    var botHtml = '<p class="botText"><span>' + dados.resp + '</span></p>';
+    $('#chatbox').append(botHtml);
 
-    $("#chatbox").append(botHtml);
+    if (dados.extra) {
+      var botHtml2 = '<p class="botText"><span>' + dados.extra + '</span></p>';
+      $('#chatbox').append(botHtml2);
+    }
 
-    document
-      .getElementById("userInput")
-      // .scrollIntoView({ block: "start", behavior: "smooth" });
+    document.getElementById('userInput');
   });
 }
 
 // tratando botoes e teclas
-$("#textInput").keypress(function (e) {
+$('#textInput').keypress(function (e) {
   if (e.which == 13) {
     getResponse();
   }
 });
 
-$("#buttonInput").click(function () {
+$('#buttonInput').click(function () {
   getResponse();
 });
